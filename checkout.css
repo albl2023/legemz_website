@@ -8,6 +8,13 @@ body{
 	align-items: center;
 }
 
+.back {
+  top: 0;
+  position: fixed;
+  left: 0;
+  padding: 10px;
+}
+
 .CartContainer{
 	width: 70%;
 	height: 90%;
