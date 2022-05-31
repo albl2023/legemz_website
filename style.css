@@ -162,6 +162,11 @@ section {
 	width: 100%;
 }
 
+.footer-contents p:nth-child(2) {
+	margin-left: 200px;
+	margin-right:200px;
+}
+
 .footer-contents p:nth-child(6) {
 	font-size: 10px;
 }
