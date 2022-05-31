@@ -1,0 +1,167 @@
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100%;
+	margin: 0; 
+	padding: 0;
+}
+
+section {
+	display: grid;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	top 0;
+	width: 100%;
+	height: 50vw;
+}
+
+#section-top {
+	place-items: center;
+	height: 100%;
+	background-image: url("https://c.tenor.com/voyZa-YrCIgAAAAC/animation-bubbles.gif");
+	background-size: cover;
+	background-attachment: fixed;
+
+	text-align: center;
+	color: white;
+	font-family: times new roman;
+	font-size: 7em;
+}	
+
+/* general product-section style */
+.description {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	padding: 10%;
+}
+
+.description p h3 {
+	align-items: left;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+}
+
+.button button {
+	background: rgb(0, 0, 0);
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid transparent;
+	margin: 0.8vw;
+	padding: 8px 17px;
+	width: 105px;
+	transition: 0.2s;
+}
+
+.button button:hover {
+	background: transparent;
+	color: black;
+	border: 2px solid black;
+	transition: 0.2s ease;
+}
+
+.product-section {
+	display: flex;
+	flex-direction: colum;
+	height: 100%;
+}
+
+/* specific product-section images */
+#essentials-image {
+	width: 50%;
+	background: url('https://i.ibb.co/4Y4K5X7/How-to-Make-Charcoal-Soap-at-Home-DIY-Activated-Charcoal-Soap-1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#monthly-image {
+	width: 50%;
+	background: url('https://i.ibb.co/m8nfM28/These-Bar-Soaps-Make-You-Want-to-Get-Your-Hands-Dirty-Design-Milk.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#custom-image {
+	width: 50%;
+	background: url('https://i.ibb.co/gTVZ3vQ/Personalised-Soap.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+/* menu style */
+.menu {
+	position: fixed;
+	z-index: 1;
+	padding: 10px;
+	font-size: 12pt;
+	font-family: monospace;
+	transition: font-size 1s;
+}
+
+.menu ul, li, a {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	transition: font-size 0.2s;
+}
+
+.menu a:hover {
+    font-size: 15pt;
+    opacity: 0.4;
+    transition: font-size 0.2s ease-out;
+}
+
+/* tub */
+.tub {
+	top: 0;
+	position: fixed;
+	right: 0;
+	padding: 10px;
+	z-index: 1;
+}
+
+.tub button {
+	color: none;
+	width: 50px;
+	height: 50px;
+	border: none;
+	background: none;
+	background-image: url("https://i.ibb.co/KqD2zHy/bath.png"); 
+	background-size: cover;
+}
+
+.tub button:active {
+	opacity: 0.4;
+}
+
+/* footer */
+.footer {
+	display: flex;    
+}
+
+.footer-contents {
+	display: block;
+	color: white;
+	text-align: center;
+	margin: 50px;
+	padding: 35px;
+	margin-top: 15px;
+	width: 100%;
+}
+
+.footer-contents p:nth-child(6) {
+	font-size: 10px;
+}
