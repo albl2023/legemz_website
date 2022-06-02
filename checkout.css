@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: (#f0ffff);
+	background: #7fb5ab;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -15,12 +15,12 @@ body{
   padding: 10px;
 }
 
-.CartContainer{
+.CartContainer {
 	width: 70%;
 	height: 90%;
 	background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0px 10px 20px #1687d933;
+    	border-radius: 20px;
+	box-shadow: 0px 10px 20px #1687d933;
 }
 
 .Header{
@@ -34,14 +34,14 @@ body{
 
 Heading{
   font-size: 25px;
-  font-family: 'Arial';
+  font-family: 'Time new roman';
   font-weight: 700;
   Color: #ffb6c1;
 }
 
 Action{
   font-size: 14px;
-  font-family: 'Arial';
+  font-family: 'Times new roman';
   font-weight: 600;
   color: #ffe4e1
     cursor: pointer;
@@ -68,43 +68,42 @@ Action{
   padding-top: 10px;
   line-height: 10px;
   font-size: 15px;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   font-weight: 800;
-  color: #ffb6c1;
+  color: #050505;
 }
 .subtitle{
 line-height: 10px;
   font-size: 18px;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   font-weight: 600;
-  color: #ffe4e1;
+  color: #050505;
 }
 
 .counter{
-  width:15%
+  width: 9%;
     display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: centered;
 }
 .btn{
 	width: 40px;
 	height: 40px;
-	border-radius: 50%;
+	border-radius: 100px;
 	background-color: #d9d9d9;
 	display: flex;
-	justify-content: right;
+	justify-content: center;
 	align-items: center;
 	font-size: 20px;
-	font-family: 'Open Sans';
+	font-family: 'Times new roman';
 	font-weight: 900;
 	color: #202020;
 	cursor: pointer;
 }
 .count{
   font-size: 20px;
-  font-weight: 'open sans';
+  font-weight: 'Times new roman';
   font-weight: 600;
-  color
 }
 
 .prices{
@@ -114,14 +113,14 @@ line-height: 10px;
 .amount{
   padding-top: 20px;
   font-size: 26px;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   font-weight: 800;
   color: #202020;
 }
 .save{
   padding-top: 5px;
   font-size: 14px;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   font-weight: 600;
   color: #a3b5c2;
   cursor: pointer;
@@ -129,7 +128,7 @@ line-height: 10px;
 .remove{
   padding-top: 5px;
   font-size: 14px;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   font-weight: 600;
   color: #ed7474;
   cursor: pointer;
@@ -156,20 +155,20 @@ hr{
 }
 .subtotal{
   font-size: 22px;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   font-weight: 700;
   color: #202020;
 }
 .items{
   font-size: 16px;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   font-weight: 500;
   color: #909090;
   line-height: 10px;
 }
 .total-amount{
   font-size: 30px;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   font-weight: 900;
   color: #202020;
 }
@@ -182,7 +181,7 @@ hr{
   border-radius: 20px;
   cursor: pointer;
   font-size: 16px;
-  font-family: 'Open sans';
+  font-family: 'Times new roman';
   font-weight: 600;
   color: #202020;
 }
